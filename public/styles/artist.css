@@ -1,0 +1,34 @@
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#artist{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 2vw 2vw;
+    background-color: gray;
+    align-items: center;
+    width: 25vw;
+}
+picture{
+    width: 25vw;
+    height: 40vh;
+}
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+h2{
+    color: white;
+    margin: 1vh 0;
+}
+#artist a{
+    padding: 1vh 2vw;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    margin-bottom: 2vh;
+}

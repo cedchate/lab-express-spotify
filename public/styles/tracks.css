@@ -1,0 +1,18 @@
+#title{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    color: rgb(206, 205, 205);
+    padding: 2vw;
+}
+#tracks{
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+}
+#track{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1vh 0 1vh 3vw;
+}
